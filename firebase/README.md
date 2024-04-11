@@ -15,14 +15,14 @@ cd firebase/funcitonn
 npm install
 ```
 
-
 # DEPLOY
 
  `firebase login `
 
 `firebase init`
 
-`firebase deploy --only hosting:lucastest`
+`firebase deploy`
+
 
 # TEST
 
