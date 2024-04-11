@@ -31,19 +31,9 @@
     <br>
     <textarea id="result" rows="30" readonly="true"></textarea>
 
+    <script src="firebase-config.js"></script>
     <script>
-        // TODO: Replace with your Firebase config
-        var firebaseConfig = {
-            apiKey: "AIzaSyDMrb0YcPgM7VeB_aOiateTrepLP6cdQuU",
-            authDomain: "playground-db858.firebaseapp.com",
-            projectId: "playground-db858",
-            storageBucket: "playground-db858.appspot.com",
-            messagingSenderId: "337733265257",
-            appId: "1:337733265257:web:358b2088700dd70b4e7ff8",
-            measurementId: "G-N21TVZ9EPY"
-        };
-
-        const app = firebase.initializeApp(firebaseConfig);
+          const app = firebase.initializeApp(firebaseConfig);
         const analytics = firebase.analytics(app);
 
         $('#demoApiCall').click(function() {
