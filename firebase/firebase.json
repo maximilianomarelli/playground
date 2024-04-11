@@ -1,0 +1,31 @@
+{
+  "hosting": {
+    "site": "lucastest",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ],
+      "headers": [
+        {
+          "source": "*",
+          "headers": [
+            "Access-Control-Allow-Origin: *"
+          ]
+        }
+      ]
+    }
+  ]
+}
